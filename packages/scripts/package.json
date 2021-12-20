@@ -5,8 +5,8 @@
   "main": "index.js",
   "private": true,
   "bin": {
-    "jest": "./node_modules/.bin/jest",
-    "eslint": "./node_modules/.bin/eslint"
+    "scripts-jest": "./node_modules/.bin/jest",
+    "scripts-eslint": "./node_modules/.bin/eslint"
   },
   "files": [
     "jest",

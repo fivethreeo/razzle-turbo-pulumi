@@ -4,7 +4,7 @@ import Home from "./Home";
 
 import "./App.css";
 
-const App = () => (
+const App = (): React.FunctionComponentElement<Record<string, never>> => (
   <Switch>
     <Route exact path="/" component={Home} />
   </Switch>

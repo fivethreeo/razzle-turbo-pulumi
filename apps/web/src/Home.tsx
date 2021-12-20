@@ -3,7 +3,7 @@ import logo from "./react.svg";
 
 import "./Home.css";
 
-const Home = () => {
+const Home = (): React.FunctionComponentElement<Record<string, never>> => {
   return (
     <div className="Home">
       <div className="Home-header">
