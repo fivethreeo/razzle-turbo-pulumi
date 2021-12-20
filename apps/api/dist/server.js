@@ -1,10 +1,13 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 exports.__esModule = true;
 exports.createServer = void 0;
 var body_parser_1 = require("body-parser");
-var express_1 = require("express");
-var morgan_1 = require("morgan");
-var cors_1 = require("cors");
+var express_1 = __importDefault(require("express"));
+var morgan_1 = __importDefault(require("morgan"));
+var cors_1 = __importDefault(require("cors"));
 var createServer = function () {
     var app = (0, express_1["default"])();
     app

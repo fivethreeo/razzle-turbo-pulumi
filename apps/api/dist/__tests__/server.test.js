@@ -35,8 +35,11 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 exports.__esModule = true;
-var supertest_1 = require("supertest");
+var supertest_1 = __importDefault(require("supertest"));
 var server_1 = require("../server");
 describe("server", function () {
     it("health check returns 200", function () { return __awaiter(void 0, void 0, void 0, function () {
